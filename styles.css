@@ -156,8 +156,18 @@ body {
 }
 
 @media (max-width: 375px) {
+    html,
+    body {
+        height: auto;
+    }
+
+    body {
+        display: block; /* enables scrolling */
+    }
+
     .card {
         width: 327px;
+        margin: 3.9rem auto;
         padding-bottom: 24px;
     }
 
